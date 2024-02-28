@@ -17,8 +17,8 @@ features
 
 Contributors names and contact info
 
-ex. Coordinator: Raeid Usmanali  
-ex. QA and Version Testing: Soham Dave & Ali B. Chaudry
+- Coordinator: Raeid Usmanali
+- QA and Version Testing: Soham Dave & Ali B. Chaudry
 
 ## Version History
 
