@@ -17,14 +17,13 @@ features
 
 Contributors names and contact info
 
-ex. Raeid Usmanali  
-ex. Soham Dave
-ex. Ali B. Chaudry
+ex. Coordinator: Raeid Usmanali  
+ex. QA and Version Testing: Soham Dave & Ali B. Chaudry
 
 ## Version History
 
 - 0.2
-  - Various bug fixes and optimizations
+  - ~~
 - 0.1
   - Initial Release
 
