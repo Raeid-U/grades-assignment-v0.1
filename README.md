@@ -11,7 +11,8 @@ features
 ### Dependencies
 
 - Standard C++ Libraries
-- ex. Windows 10, Mac OS "Sonoma", Linux Mint 21.3 "Virginia"
+- Windows 10, Mac OS "Sonoma", Linux Mint 21.3 "Virginia"
+- bits/stdc++.h (minimum)
 
 ## Authors
 
