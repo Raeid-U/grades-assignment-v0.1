@@ -12,6 +12,8 @@ float placeHolderGPA;
 float averageGrade;
 float averageGPA;
 
+char arr[14] = {"U Waterloo", "UofT", "McMaster University", "University of Laurier", "McGill University", "York University", "Toronto Metropolitan University", "Western University", "University of Brittish Columbia", "University of Guelph", "Carleton University", "Brock University", "Algoma University", "Sheraton University", "Seneca College"};
+
 void obtain_FinalGPACalc() // obtains courses and grades from user
 {
     cout << "\nGPA and Average Calculator Launched\n";
@@ -96,4 +98,8 @@ void reply_FinalGPACalc() // returns averages to user
     cout << "\nYour average for this semester was: " << averageGrade << "\n";
     cout << "Your unweighted GPA is: " << averageGPA << "\n";
     cout << "\n";
+}
+
+void uniPossibilities_FinalGPACalc()
+{
 }
