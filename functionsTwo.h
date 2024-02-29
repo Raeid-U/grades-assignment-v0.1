@@ -4,13 +4,13 @@
 #include <cstdlib>
 using namespace std;
 
-int numCourses;
-float gradesTotal;
-float gpaTotal;
-float placeHolderGrade;
-float placeHolderGPA;
-float averageGrade;
-float averageGPA;
+int numCoursesTwo;
+float gradesTotalTwo;
+float gpaTotalTwo;
+float placeHolderGradeTwo;
+float placeHolderGPATwo;
+float averageGradeTwo;
+float averageGPATwo;
 
 // char arr[14] = {"U Waterloo", "UofT", "McMaster University", "University of Laurier", "McGill University", "York University", "Toronto Metropolitan University", "Western University", "University of Brittish Columbia", "University of Guelph", "Carleton University", "Brock University", "Algoma University", "Sheraton University", "Seneca College"};
 
@@ -18,75 +18,75 @@ void obtain_FinalGPACalc() // obtains courses and grades from user
 {
     cout << "\nGPA and Average Calculator Launched\n";
     cout << "\nHow many courses did you take?\n";
-    cin >> numCourses; // prompts # of courses taken
+    cin >> numCoursesTwo; // prompts # of courses taken
 
     cout << "\n\n Please input the grades for each course\n";
-    for (int i = 1; i <= numCourses; i++) // records the grade for each course
+    for (int i = 1; i <= numCoursesTwo; i++) // records the grade for each course
     {
         cout << " Course " << i << ": ";
-        cin >> placeHolderGrade;
+        cin >> placeHolderGradeTwo;
 
-        if (placeHolderGrade < 0 || placeHolderGrade > 100) // ensures grade entered exists
+        if (placeHolderGradeTwo < 0 || placeHolderGradeTwo > 100) // ensures grade entered exists
         {
             cout << " Error, Invalid Grade\n";
             cout << " Please re-input --- Course " << i << ": ";
-            cin >> placeHolderGrade;
+            cin >> placeHolderGradeTwo;
         }
 
-        if (placeHolderGrade >= 93 && placeHolderGrade <= 100) // assigns a GPA to the grade provided
+        if (placeHolderGradeTwo >= 93 && placeHolderGradeTwo <= 100) // assigns a GPA to the grade provided
         {
-            placeHolderGPA = 4.0;
+            placeHolderGPATwo = 4.0;
         }
-        else if (placeHolderGrade >= 90 && placeHolderGrade <= 92)
+        else if (placeHolderGradeTwo >= 90 && placeHolderGradeTwo <= 92)
         {
-            placeHolderGPA = 3.7;
+            placeHolderGPATwo = 3.7;
         }
-        else if (placeHolderGrade >= 87 && placeHolderGrade <= 89)
+        else if (placeHolderGradeTwo >= 87 && placeHolderGradeTwo <= 89)
         {
-            placeHolderGPA = 3.3;
+            placeHolderGPATwo = 3.3;
         }
-        else if (placeHolderGrade >= 83 && placeHolderGrade <= 86)
+        else if (placeHolderGradeTwo >= 83 && placeHolderGradeTwo <= 86)
         {
-            placeHolderGPA = 3.0;
+            placeHolderGPATwo = 3.0;
         }
-        else if (placeHolderGrade >= 80 && placeHolderGrade <= 82)
+        else if (placeHolderGradeTwo >= 80 && placeHolderGradeTwo <= 82)
         {
-            placeHolderGPA = 2.7;
+            placeHolderGPATwo = 2.7;
         }
-        else if (placeHolderGrade >= 77 && placeHolderGrade <= 79)
+        else if (placeHolderGradeTwo >= 77 && placeHolderGradeTwo <= 79)
         {
-            placeHolderGPA = 2.3;
+            placeHolderGPATwo = 2.3;
         }
-        else if (placeHolderGrade >= 73 && placeHolderGrade <= 76)
+        else if (placeHolderGradeTwo >= 73 && placeHolderGradeTwo <= 76)
         {
-            placeHolderGPA = 2.0;
+            placeHolderGPATwo = 2.0;
         }
-        else if (placeHolderGrade >= 70 && placeHolderGrade <= 72)
+        else if (placeHolderGradeTwo >= 70 && placeHolderGradeTwo <= 72)
         {
-            placeHolderGPA = 1.7;
+            placeHolderGPATwo = 1.7;
         }
-        else if (placeHolderGrade >= 67 && placeHolderGrade <= 69)
+        else if (placeHolderGradeTwo >= 67 && placeHolderGradeTwo <= 69)
         {
-            placeHolderGPA = 1.3;
+            placeHolderGPATwo = 1.3;
         }
-        else if (placeHolderGrade >= 65 && placeHolderGrade <= 66)
+        else if (placeHolderGradeTwo >= 65 && placeHolderGradeTwo <= 66)
         {
-            placeHolderGPA = 1.0;
+            placeHolderGPATwo = 1.0;
         }
-        else if (placeHolderGrade < 65)
+        else if (placeHolderGradeTwo < 65)
         {
-            placeHolderGPA = 0;
+            placeHolderGPATwo = 0;
         }
 
-        gradesTotal = gradesTotal + placeHolderGrade; // dump placeholder
-        gpaTotal = gpaTotal + placeHolderGPA;         // dump placeholder
+        gradesTotalTwo = gradesTotalTwo + placeHolderGradeTwo; // dump placeholder
+        gpaTotalTwo = gpaTotalTwo + placeHolderGPATwo;         // dump placeholder
     }
 }
 
 void calculate_FinalGPACalc() // calculates averages
 {
-    averageGrade = gradesTotal / numCourses;
-    averageGPA = gpaTotal / numCourses;
+    averageGradeTwo = gradesTotalTwo / numCoursesTwo;
+    averageGPATwo = gpaTotalTwo / numCoursesTwo;
 }
 
 void reply_FinalGPACalc() // returns averages to user
@@ -95,8 +95,8 @@ void reply_FinalGPACalc() // returns averages to user
     cout << "### Calculating ###";
     cout << "\n\n\n";
 
-    cout << "\nYour average for this semester was: " << averageGrade << "\n";
-    cout << "Your unweighted GPA is: " << averageGPA << "\n";
+    cout << "\nYour average for this semester was: " << averageGradeTwo << "\n";
+    cout << "Your unweighted GPA is: " << averageGPATwo << "\n";
     cout << "\n";
 }
 

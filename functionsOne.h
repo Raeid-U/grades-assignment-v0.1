@@ -11,7 +11,7 @@ float placeHolderWeightOne;
 float weightAchievedOne;
 float totalWeightOne;
 
-float finalGrade;
+float finalGradeOne;
 
 void obtain_GradeCalc()
 {
@@ -37,7 +37,7 @@ void obtain_GradeCalc()
 
 void calculate_GradeCalc()
 {
-    finalGrade = 100 * (weightAchievedOne * (1 / totalWeightOne));
+    finalGradeOne = 100 * (weightAchievedOne * (1 / totalWeightOne));
 }
 
 void reply_GradeCalc()
@@ -46,5 +46,5 @@ void reply_GradeCalc()
     cout << "### Calculating ###";
     cout << "\n\n\n";
 
-    cout << "Your Final Grade is: " << finalGrade << "\n\n";
+    cout << "Your Final Grade is: " << finalGradeOne << "\n\n";
 }

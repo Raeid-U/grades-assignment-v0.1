@@ -4,7 +4,7 @@
 #include <cstdlib>
 using namespace std;
 
-int userChoice;
+int userChoiceZero;
 
 void choose()
 {
@@ -13,5 +13,5 @@ void choose()
     cout << "[1] Final Grade Calculator\n";
     cout << "[2] GPA and Average Calculator\n";
     cout << "[3] Maintenace Grade Calculator\n\n";
-    cin >> userChoice;
+    cin >> userChoiceZero;
 }
