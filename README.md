@@ -15,8 +15,6 @@
 
 ## Authors
 
-Contributors names and contact info
-
 - Coordinator: Raeid Usmanali
 - QA and Version Testing: Soham Dave & Ali B. Chaudry
 
