@@ -24,7 +24,7 @@ void obtain_GradeCalc()
     for (int i = 1; i <= numGradesOne; i++)
     {
         cout << "\n";
-        cout << " Marked Item #" << i << ": ";
+        cout << " Grade for Marked Item #" << i << ": ";
         cin >> placeHolderGradeOne;
         placeHolderGradeOne = (placeHolderGradeOne / 100);
         cout << " Weight for Marked Item #" << i << ": ";

@@ -12,7 +12,7 @@ float placeHolderGPA;
 float averageGrade;
 float averageGPA;
 
-char arr[14] = {"U Waterloo", "UofT", "McMaster University", "University of Laurier", "McGill University", "York University", "Toronto Metropolitan University", "Western University", "University of Brittish Columbia", "University of Guelph", "Carleton University", "Brock University", "Algoma University", "Sheraton University", "Seneca College"};
+// char arr[14] = {"U Waterloo", "UofT", "McMaster University", "University of Laurier", "McGill University", "York University", "Toronto Metropolitan University", "Western University", "University of Brittish Columbia", "University of Guelph", "Carleton University", "Brock University", "Algoma University", "Sheraton University", "Seneca College"};
 
 void obtain_FinalGPACalc() // obtains courses and grades from user
 {
