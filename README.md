@@ -1,12 +1,11 @@
 # grades-assignment-v0.1
 
-# Project Title
-
-Grades Calculator
+# Grades Calculator
 
 ## Description
 
-features
+- Series of prompts in Console/Terminal based in C++
+- Conducts Calculations for GPA, Average, Final Grade, and Required Marks
 
 ### Dependencies
 
@@ -30,6 +29,8 @@ Contributors names and contact info
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Inspiration
 
 - [Mr. Brown]()
+- [Ms. Bailey]()
+- [Ms. Premawardena]()
