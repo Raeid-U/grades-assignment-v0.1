@@ -42,9 +42,6 @@ void calculate_GradeCalc()
 
 void reply_GradeCalc()
 {
-    cout << "\n\n";
-    cout << "### Calculating ###";
-    cout << "\n\n\n";
-
-    cout << "Your Final Grade is: " << finalGradeOne << "\n\n";
+    cout << "\n\n"
+         << "Your Final Grade is: " << finalGradeOne << "\n\n";
 }
