@@ -36,6 +36,8 @@ int main()
         else if (userChoiceZero == 3)
         {
             obtain_RequiredGrade();
+            calculate_RequiredGrade();
+            reply_RequiredGrade();
         }
 
         cout << "\n\nWould you like to run again?:\n";
