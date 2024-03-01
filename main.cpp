@@ -7,13 +7,17 @@ using namespace std;
 #include "functionsZero.h"
 #include "functionsOne.h"
 #include "functionsTwo.h"
+#include "functionsThree.h"
 
 int reRunMain = 1;
 
 int main()
 {
+
     do
     {
+        cout << " ";
+        system("clear");
         choose();
 
         if (userChoiceZero == 1)
@@ -31,6 +35,7 @@ int main()
         }
         else if (userChoiceZero == 3)
         {
+            obtain_RequiredGrade();
         }
 
         cout << "\n\nWould you like to run again?:\n";
