@@ -5,7 +5,7 @@
 using namespace std;
 
 int userChoiceThree;
-const char *choicesThree[5] = {"Term Weight: ", "Term Mark: ", "Summative Weight: ", "Summative Mark: ", "Exam Weight: "};
+const char *choicesThree[5] = {"Term Weight: ", "Term Mark (%): ", "Summative Weight: ", "Summative Mark (%): ", "Exam Weight: "};
 float termMarkThree;
 float termWeightThree;
 float summativeMarkThree;
@@ -125,7 +125,7 @@ void calculate_RequiredGrade()
         termGradeThree = (termWeightAchievedThree / termWeightThree) * 100;
 
         examWeightRequiredThree = (termWeightAchievedThree / termWeightThree) * examWeightThree;
-        examGradeThree = examWeightRequiredThree / examWeightThree * 100;
+        examGradeThree = (examWeightRequiredThree / examWeightThree) * 100;
     }
     else if (userChoiceThree == 2)
     {
@@ -136,7 +136,7 @@ void calculate_RequiredGrade()
         totalWeightThree = termWeightThree + summativeWeightThree;
 
         examWeightRequiredThree = (totalWeightAchievedThree / totalWeightThree) * examWeightThree;
-        examGradeThree = examWeightRequiredThree / examWeightThree * 100;
+        examGradeThree = (examWeightRequiredThree / examWeightThree) * 100;
     }
 
     cout << "\n\nWhat is your exam out of?\n";
@@ -146,6 +146,6 @@ void calculate_RequiredGrade()
 void reply_RequiredGrade()
 {
     cout << "\n\nTo achieve a " << expectedGradeThree << " in this course, you need to achieve a...\n";
-    cout << "Exam Grade of: " << examGradeThree << "\n";
+    cout << "Exam Grade of: " << examGradeThree << " %\n";
     cout << "Exam Mark of: " << ((examGradeThree / 100) * examMarkOutOfThree) << "/" << examMarkOutOfThree << "\n";
 }
