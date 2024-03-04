@@ -21,7 +21,7 @@
 ## Version History
 
 - 0.2
-  - ~~
+  - Full (as intended) functionality
 - 0.1
   - Initial Release
 
