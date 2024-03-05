@@ -11,7 +11,7 @@
 
 - Standard C++ Libraries
 - Windows 10, Mac OS "Sonoma", Linux Mint 21.3 "Virginia"
-- bits/stdc++.h (minimum)
+- bits/stdc++.h
 
 ## Authors
 
