@@ -5,7 +5,7 @@
 ## Description
 
 - Series of prompts in Console/Terminal based in C++
-- Conducts Calculations for GPA, Average, Final Grade, and Required Marks
+- Conducts Calculations for GPA, Average, Final Grade, and Required Marks to Maintain a Grade
 
 ### Dependencies
 
@@ -17,13 +17,16 @@
 
 - Coordinator: Raeid Usmanali
 - QA and Version Testing: Soham Dave & Ali B. Chaudry
+- Contributors: Ayaan Tunio & Vansh Anand
 
 ## Version History
 
 - 0.2
   - Full (as intended) functionality
+  - Added Maintenance Grade Calculator
 - 0.1
   - Initial Release
+  - GPA and Final Grade Calculator
 
 ## Acknowledgments
 
