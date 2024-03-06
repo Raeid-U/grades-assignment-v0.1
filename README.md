@@ -29,6 +29,6 @@
 
 Inspiration
 
-- [Mr. Brown]()
-- [Ms. Bailey]()
-- [Ms. Premawardena]()
+- Mr. Brown
+- Ms. Bailey
+- Ms. Premawardena
