@@ -96,7 +96,7 @@ void reply_FinalGPACalc() // returns averages to user
     cout << "Your unweighted GPA is: " << averageGPATwo << "\n";
     cout << "\n";
     cout << "\n\n";
-    system("Pause");
+    system("read");
 }
 
 void uniPossibilities_FinalGPACalc()

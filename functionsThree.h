@@ -149,5 +149,5 @@ void reply_RequiredGrade()
     cout << "Exam Grade of: " << examGradeThree << " %\n";
     cout << "Exam Mark of: " << ((examGradeThree / 100) * examMarkOutOfThree) << "/" << examMarkOutOfThree << "\n";
     cout << "\n\n";
-    system("Pause");
+    system("read");
 }
