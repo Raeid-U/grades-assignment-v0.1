@@ -58,7 +58,7 @@ void obtain_RequiredGrade()
                 cin >> examWeightThree;
             }
         }
-        cout << "\n\nWhat Grade would you like in this course?\n";
+        cout << "\n\nWhat Grade would you like in this course (%)?\n";
         cin >> expectedGradeThree;
     }
     else if (userChoiceThree == 2)
@@ -100,14 +100,14 @@ void obtain_RequiredGrade()
                 cin >> examWeightThree;
             }
         }
-        cout << "\nWhat Grade would you like in this course?\n";
+        cout << "\nWhat Grade would you like in this course (%)?\n";
         cin >> expectedGradeThree;
     }
     else
     {
         system("clear");
         int userChoiceThree;
-        cout << " Error, Invalid Grade\n";
+        cout << " Error, Invalid Choice\n";
         cout << " Please re-input \n\n";
         cout << "\nPlease select an option that applies to you:\n";
 
@@ -148,4 +148,6 @@ void reply_RequiredGrade()
     cout << "\n\nTo achieve a " << expectedGradeThree << " in this course, you need to achieve a...\n";
     cout << "Exam Grade of: " << examGradeThree << " %\n";
     cout << "Exam Mark of: " << ((examGradeThree / 100) * examMarkOutOfThree) << "/" << examMarkOutOfThree << "\n";
+    cout << "\n\n";
+    system("Pause");
 }

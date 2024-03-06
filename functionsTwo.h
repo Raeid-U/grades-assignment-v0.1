@@ -20,7 +20,7 @@ void obtain_FinalGPACalc() // obtains courses and grades from user
     cout << "\nHow many courses did you take?\n";
     cin >> numCoursesTwo; // prompts # of courses taken
 
-    cout << "\n\n Please input the grades for each course\n";
+    cout << "\n\n Please input the grades (%) for each course\n";
     for (int i = 1; i <= numCoursesTwo; i++) // records the grade for each course
     {
         cout << " Course " << i << ": ";
@@ -92,12 +92,11 @@ void calculate_FinalGPACalc() // calculates averages
 void reply_FinalGPACalc() // returns averages to user
 {
     cout << "\n\n";
-    cout << "### Calculating ###";
-    cout << "\n\n\n";
-
     cout << "\nYour average for this semester was: " << averageGradeTwo << "\n";
     cout << "Your unweighted GPA is: " << averageGPATwo << "\n";
     cout << "\n";
+    cout << "\n\n";
+    system("Pause");
 }
 
 void uniPossibilities_FinalGPACalc()
