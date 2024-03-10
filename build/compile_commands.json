@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/raeidusmanali/Documents/Coding/ICS4U0 Projects/grades-assignment-v0.1/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/newProject.dir/main.cpp.o -c \"/Users/raeidusmanali/Documents/Coding/ICS4U0 Projects/grades-assignment-v0.1/main.cpp\"",
+  "file": "/Users/raeidusmanali/Documents/Coding/ICS4U0 Projects/grades-assignment-v0.1/main.cpp",
+  "output": "CMakeFiles/newProject.dir/main.cpp.o"
+}
+]
